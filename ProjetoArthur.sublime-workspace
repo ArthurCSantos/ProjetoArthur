@@ -1,0 +1,1084 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"nome",
+				"nome_eq"
+			],
+			[
+				"inf",
+				"info_man"
+			],
+			[
+				"do",
+				"do_contrato"
+			],
+			[
+				"contr",
+				"Contrato_id"
+			],
+			[
+				"cont",
+				"Contrato"
+			],
+			[
+				"col-lg-1",
+				"col-lg-1"
+			],
+			[
+				"data_",
+				"data_vencimento_inicio"
+			],
+			[
+				"data",
+				"data_vencimento_fim"
+			],
+			[
+				"datave",
+				"data_vencimento_inicio"
+			],
+			[
+				"tipo",
+				"tipos_solicitacao_id"
+			],
+			[
+				"pra",
+				"params"
+			],
+			[
+				"mensa",
+				"mensal_indefinida"
+			],
+			[
+				"MENS",
+				"MENSAL_DEFINIDA"
+			],
+			[
+				"MENSA",
+				"MENSAL_INDEFINIDA"
+			],
+			[
+				"mensal",
+				"mensal_definida"
+			],
+			[
+				"Solici",
+				"Solicitacao"
+			],
+			[
+				"nome_para",
+				"nome_para_pesquisa"
+			],
+			[
+				"S",
+				"SolicitacaoPagamento"
+			],
+			[
+				"Com",
+				"Compras"
+			],
+			[
+				"NOME",
+				"nome_pra_pesquisa"
+			],
+			[
+				"do_servico_contr",
+				"do_tipo_servico_contratado"
+			],
+			[
+				"solici",
+				"solicitacoes_pagamento"
+			],
+			[
+				"servicos",
+				"servicos_contratados"
+			],
+			[
+				"mostrar_pra",
+				"mostrar_prazo_estendido"
+			],
+			[
+				"sevicos",
+				"servicos_contratados"
+			],
+			[
+				"servi",
+				"servicos_contratados"
+			],
+			[
+				"mostrar_prao",
+				"mostrar_prazo_comum"
+			],
+			[
+				"mostrar_prazo",
+				"mostrar_prazo_comum"
+			],
+			[
+				"mostr",
+				"mostrar_prazo_comum"
+			],
+			[
+				"prazo",
+				"prazo_estendido"
+			],
+			[
+				"ser",
+				"servico_contratado"
+			],
+			[
+				"MENSAL",
+				"MENSAL_ESTENDIDA"
+			],
+			[
+				"mostar",
+				"mostrar_chamados_tecnicos"
+			],
+			[
+				"to",
+				"to_a"
+			],
+			[
+				"ordne",
+				"ordens_servico"
+			],
+			[
+				"orden",
+				"ordens_servico"
+			],
+			[
+				"orde",
+				"ordens_servico"
+			],
+			[
+				"chamad",
+				"chamado_tecnico"
+			],
+			[
+				"chamados",
+				"chamados_tecnicos"
+			],
+			[
+				"col",
+				"col-lg-12"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"but",
+				"button_to"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 65,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/home_controller.rb",
+			"settings":
+			{
+				"buffer_size": 93,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "class HomeController < ApplicationController"
+			}
+		},
+		{
+			"file": "app/assets/stylesheets/style.css",
+			"settings":
+			{
+				"buffer_size": 28427,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/layouts/application.html.erb",
+			"settings":
+			{
+				"buffer_size": 327,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/arthur/Projetos/ProjetoArthur/app/assets",
+		"/home/arthur/Projetos/ProjetoArthur/app/assets/stylesheets",
+		"/home/arthur/Projetos/ProjetoArthur/app/controllers",
+		"/home/arthur/Projetos/ProjetoArthur/app/views/home",
+		"/home/arthur/Projetos/ProjetoArthur/app/views/layouts"
+	],
+	"file_history":
+	[
+		"/home/arthur/Projetos/ProjetoArthur/app/views/home/index.html.erb",
+		"/home/arthur/Projetos/ProjetoArthur/app/views/home/application.html.erb",
+		"/home/arthur/Projetos/rcsapp/app/models/chamados_tecnicos_externos/solicitacao_abertura_chamado_tecnico.rb",
+		"/home/arthur/Projetos/rcsapp/app/views/chamados_tecnicos_externos/solicitacoes_abertura_chamado_tecnico/new.erb",
+		"/home/arthur/Projetos/rcsapp/app/views/ordens_servico/index.erb",
+		"/home/arthur/Projetos/rcsapp/app/controllers/unidades_controller.rb",
+		"/home/arthur/Projetos/rcsapp/app/views/relatorios/relatorio_materiais_almox.erb",
+		"/home/arthur/Projetos/rcsapp/app/controllers/relatorios_controller.rb",
+		"/home/arthur/Projetos/rcsapp/app/views/equipamentos/index.erb",
+		"/home/arthur/Projetos/rcsapp/app/models/equipamento.rb",
+		"/home/arthur/Projetos/rcsapp/app/models/ordem_servico.rb",
+		"/home/arthur/Projetos/rcsapp/app/views/unidades/relatorios.erb",
+		"/home/arthur/Projetos/rcsapp/app/views/ordens_servico/_filtros_index.erb",
+		"/home/arthur/Projetos/rcsapp/app/views/layouts/_botao_selecione_unidade.erb",
+		"/home/arthur/Projetos/rcsapp/app/views/almoxarifado/materiais/index.erb",
+		"/home/arthur/Projetos/rcsapp/app/views/almoxarifado/materiais/show.erb",
+		"/home/arthur/Projetos/rcsapp/app/models/contrato.rb",
+		"/home/arthur/Projetos/rcsapp/app/controllers/ordens_servico_controller.rb",
+		"/home/arthur/Projetos/rcsapp/config/routes.rb",
+		"/home/arthur/Projetos/rcsapp/app/models/usuario_ability.rb",
+		"/home/arthur/Projetos/rcsapp/app/controllers/contratos/informacoes_manutencao_controller.rb",
+		"/home/arthur/Projetos/rcsapp/app/models/usuario.rb",
+		"/home/arthur/Projetos/rcsapp/app/models/contratos/informacao_manutencao.rb",
+		"/home/arthur/Projetos/rcsapp/app/helpers/menu_interno_helper.rb",
+		"/home/arthur/Projetos/rcsapp/app/views/ordens_servico/_menu_ordens_servico.erb",
+		"/home/arthur/Projetos/rcsapp/app/views/ordens_servico/show.erb",
+		"/home/arthur/Projetos/rcsapp/app/views/equipamentos/show.erb",
+		"/home/arthur/Projetos/rcsapp/app/views/contratos/informacoes_manutencao/edit.erb",
+		"/home/arthur/Projetos/rcsapp/lib/dados_util.rb",
+		"/home/arthur/Projetos/rcsapp/app/controllers/chats_controller.rb",
+		"/home/arthur/Projetos/rcsapp/app/models/compras/orcamento.rb",
+		"/home/arthur/Projetos/rcsapp/app/controllers/ans_controller.rb",
+		"/home/arthur/Projetos/rcsapp/app/controllers/application_controller.rb",
+		"/home/arthur/Projetos/rcsapp/app/controllers/compras/solicitacoes_pagamento_controller.rb",
+		"/home/arthur/Projetos/rcsapp/app/views/compras/solicitacoes_pagamento/index.erb",
+		"/home/arthur/Projetos/rcsapp/app/views/compras/solicitacoes_pagamento/avaliar.erb",
+		"/home/arthur/Projetos/rcsapp/app/views/compras/solicitacoes_pagamento/_menu_solicitacao_pagamento.erb",
+		"/home/arthur/Projetos/rcsapp/app/views/compras/solicitacoes_pagamento/show.erb",
+		"/home/arthur/Projetos/rcsapp/app/controllers/compras/servicos_contratados_controller.rb",
+		"/home/arthur/Projetos/rcsapp/app/models/compras/servico_contratado.rb",
+		"/home/arthur/Projetos/rcsapp/app/models/compras/solicitacao_pagamento.rb",
+		"/home/arthur/Projetos/rcsapp/lib/tasks/rcs.rake",
+		"/home/arthur/Projetos/rcsapp/app/models/compras/produto_solicitado.rb",
+		"/home/arthur/Projetos/rcsapp/app/views/compras/servicos_contratados/index.erb",
+		"/home/arthur/Projetos/rcsapp/app/views/ordens_servico/baixar2.erb",
+		"/home/arthur/Projetos/rcsapp/app/controllers/tempos_trabalhados_controller.rb",
+		"/home/arthur/Projetos/rcsapp/app/views/colaboradores/index.erb",
+		"/home/arthur/Projetos/rcsapp/app/controllers/colaboradores_controller.rb",
+		"/home/arthur/Projetos/rcsapp/app/views/compras/servicos_contratados/edit.erb",
+		"/home/arthur/Projetos/rcsapp/app/controllers/tipos_equipamento_controller.rb",
+		"/home/arthur/Projetos/rcsapp/app/views/relatorios/oss_por_colaborador.erb",
+		"/home/arthur/Projetos/rcsapp/app/models/importpr/preventiva.rb",
+		"/home/arthur/Projetos/rcsapp/app/models/chamado_tecnico.rb",
+		"/home/arthur/Projetos/rcsapp/app/views/relatorios/chamados_tecnicos_consolidados_por_periodo.erb",
+		"/home/arthur/Projetos/rcsapp/app/views/indicadores/ordens_servico.erb",
+		"/home/arthur/Projetos/rcsapp/app/models/almoxarifado/material.rb",
+		"/home/arthur/Projetos/rcsapp/app/views/ordens_servico/_tempos_trabalhados_baixar.erb",
+		"/home/arthur/Projetos/rcsapp/app/models/tempo_trabalhado.rb",
+		"/home/arthur/Projetos/rcsapp/app/controllers/medicoes_controller.rb",
+		"/home/arthur/Projetos/rcsapp/app/views/home/contatos_frentes.erb",
+		"/home/arthur/Projetos/rcsapp/app/controllers/home_controller.rb",
+		"/home/arthur/Projetos/rcsapp/app/controllers/contratos_controller.rb",
+		"/home/arthur/Projetos/rcsapp/app/views/tipos_equipamento/show.erb",
+		"/home/arthur/Projetos/rcsapp/app/views/layouts/site_interno.erb",
+		"/home/arthur/Área de Trabalho/Elétricos",
+		"/home/arthur/Projetos/rcsapp/app/views/tipos_equipamento/index.erb",
+		"/home/arthur/Projetos/rcsapp/app/controllers/compras/solicitacoes_produtos_controller.rb",
+		"/home/arthur/Projetos/rcsapp/app/models/arvore.rb",
+		"/home/arthur/Projetos/rcsapp/config/initializers/inflections.rb",
+		"/home/arthur/Projetos/rcsapp/script_tipo_solicitacao.rb",
+		"/home/arthur/Projetos/rcsapp/app/controllers/minha_conta_controller.rb",
+		"/home/arthur/Projetos/rcsapp/Gemfile",
+		"/home/arthur/Projetos/rcsapp/Gemfile.lock"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"unidades",
+			"imprimir",
+			"rel",
+			"Selecione o mês e a unidade (ou todas) para ver e baixar o relatório",
+			"clique para selecionar unidade",
+			"clique",
+			"fiscal",
+			"InformacaoManutencao",
+			"abrir_chamado_tecnico",
+			"ordens_servico",
+			"usa_medicoes_nos_equipamentos",
+			"contrato",
+			"commit",
+			"nome_servico_contratado",
+			"mensal_definida",
+			"do_tipo_cobranca",
+			"copia_servico_contratado",
+			"nome",
+			"tempo_tra",
+			"if",
+			"rh",
+			"dar_permissoes_usuario_enge",
+			"ativo",
+			"gera",
+			"contas",
+			"tipo",
+			"executado",
+			"executados",
+			"check_box_tag",
+			"colaboradores",
+			"colabora",
+			"cola",
+			"dropdown-user",
+			"branco",
+			"LOGO_RCS_BRANCO",
+			"marca",
+			"marca_sgm",
+			"copia_colecoes",
+			"mongo"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "config/routes.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 65,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								46,
+								46
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/controllers/home_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 93,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								76,
+								76
+							]
+						],
+						"settings":
+						{
+							"auto_name": "class HomeController < ApplicationController",
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/assets/stylesheets/style.css",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 28427,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/views/layouts/application.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 327,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ProjetoArthur.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"rou",
+				"config/routes.rb"
+			],
+			[
+				"ordens",
+				"app/controllers/ordens_servico_controller.rb"
+			],
+			[
+				"solicabertchamtecc",
+				"app/controllers/chamados_tecnicos_externos/solicitacoes_abertura_chamado_tecnico_controller.rb"
+			],
+			[
+				"solicabertchamtecnew",
+				"app/views/chamados_tecnicos_externos/solicitacoes_abertura_chamado_tecnico/new.erb"
+			],
+			[
+				"solcitacaabertcham",
+				"app/models/chamados_tecnicos_externos/solicitacao_abertura_chamado_tecnico.rb"
+			],
+			[
+				"filtros",
+				"app/views/ordens_servico/_filtros_index.erb"
+			],
+			[
+				"ordensser",
+				"app/views/ordens_servico/index.erb"
+			],
+			[
+				"ordensse",
+				"app/views/ordens_servico/index.erb"
+			],
+			[
+				"solicitaberchamtecnew",
+				"app/views/chamados_tecnicos_externos/solicitacoes_abertura_chamado_tecnico/new.erb"
+			],
+			[
+				"solicira",
+				"app/models/chamados_tecnicos_externos/solicitacao_abertura_chamado_tecnico.rb"
+			],
+			[
+				"relatorios",
+				"app/controllers/relatorios_controller.rb"
+			],
+			[
+				"relatoriosma",
+				"app/views/relatorios/relatorio_materiais_almox.erb"
+			],
+			[
+				"equ",
+				"app/models/equipamento.rb"
+			],
+			[
+				"ordems",
+				"app/models/ordem_servico.rb"
+			],
+			[
+				"equipamentosinde",
+				"app/views/equipamentos/index.erb"
+			],
+			[
+				"unidades",
+				"app/controllers/unidades_controller.rb"
+			],
+			[
+				"ordem",
+				"app/models/ordem_servico.rb"
+			],
+			[
+				"ordenservindex",
+				"app/views/ordens_servico/index.erb"
+			],
+			[
+				"materiaisinde",
+				"app/views/almoxarifado/materiais/index.erb"
+			],
+			[
+				"relaorimateal",
+				"app/views/relatorios/relatorio_materiais_almox.erb"
+			],
+			[
+				"materiais.erb",
+				"app/views/almoxarifado/materiais/show.erb"
+			],
+			[
+				"contra",
+				"app/models/contrato.rb"
+			],
+			[
+				"usua",
+				"app/models/usuario_ability.rb"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"cont",
+				"app/models/contrato.rb"
+			],
+			[
+				"meni",
+				"app/helpers/menu_interno_helper.rb"
+			],
+			[
+				"informar",
+				"app/models/contratos/informacao_manutencao.rb"
+			],
+			[
+				"menuin",
+				"app/helpers/menu_interno_helper.rb"
+			],
+			[
+				"informaconrr",
+				"app/controllers/contratos/informacoes_manutencao_controller.rb"
+			],
+			[
+				"usuar",
+				"app/models/usuario.rb"
+			],
+			[
+				"menuordnes",
+				"app/views/ordens_servico/_menu_ordens_servico.erb"
+			],
+			[
+				"_menuorde",
+				"app/views/ordens_servico/_menu_ordens_servico.erb"
+			],
+			[
+				"ordenssericoinde",
+				"app/views/ordens_servico/index.erb"
+			],
+			[
+				"ordenserinde",
+				"app/views/ordens_servico/index.erb"
+			],
+			[
+				"ordensservicoshw",
+				"app/views/ordens_servico/show.erb"
+			],
+			[
+				"equipamentosshow",
+				"app/views/equipamentos/show.erb"
+			],
+			[
+				"dados",
+				"lib/dados_util.rb"
+			],
+			[
+				"infomraca",
+				"app/models/contratos/informacao_manutencao.rb"
+			],
+			[
+				"informacoesmanutcon",
+				"app/controllers/contratos/informacoes_manutencao_controller.rb"
+			],
+			[
+				"informacoemanutencedi",
+				"app/views/contratos/informacoes_manutencao/edit.erb"
+			],
+			[
+				"orcamento",
+				"app/models/compras/orcamento.rb"
+			],
+			[
+				"avaliar",
+				"app/views/compras/solicitacoes_pagamento/avaliar.erb"
+			],
+			[
+				"solpaginde",
+				"app/views/compras/solicitacoes_pagamento/index.erb"
+			],
+			[
+				"_menusoli",
+				"app/views/compras/solicitacoes_pagamento/_menu_solicitacao_pagamento.erb"
+			],
+			[
+				"dadosu",
+				"lib/dados_util.rb"
+			],
+			[
+				"_menu_sol",
+				"app/views/compras/solicitacoes_pagamento/_menu_solicitacao_pagamento.erb"
+			],
+			[
+				"solcitpagmshow",
+				"app/views/compras/solicitacoes_pagamento/show.erb"
+			],
+			[
+				"_menusol",
+				"app/views/compras/solicitacoes_pagamento/_menu_solicitacao_pagamento.erb"
+			],
+			[
+				"_menusolpa",
+				"app/views/compras/solicitacoes_pagamento/_menu_solicitacao_pagamento.erb"
+			],
+			[
+				"solipagcontr",
+				"app/controllers/compras/solicitacoes_pagamento_controller.rb"
+			],
+			[
+				"solipagind",
+				"app/views/compras/solicitacoes_pagamento/index.erb"
+			],
+			[
+				"avalia",
+				"app/views/compras/solicitacoes_pagamento/avaliar.erb"
+			],
+			[
+				"servi",
+				"app/models/compras/servico_contratado.rb"
+			],
+			[
+				"avaliae",
+				"app/views/compras/solicitacoes_pagamento/avaliar.erb"
+			],
+			[
+				"solcitpagamcontrol",
+				"app/controllers/compras/solicitacoes_pagamento_controller.rb"
+			],
+			[
+				"servico",
+				"app/models/compras/servico_contratado.rb"
+			],
+			[
+				"servicocon",
+				"app/controllers/compras/servicos_contratados_controller.rb"
+			],
+			[
+				"rake",
+				"lib/tasks/rcs.rake"
+			],
+			[
+				"solicitpagamencontrol",
+				"app/controllers/compras/solicitacoes_pagamento_controller.rb"
+			],
+			[
+				"servcontrconr",
+				"app/controllers/compras/servicos_contratados_controller.rb"
+			],
+			[
+				"solicitpagmeinde",
+				"app/views/compras/solicitacoes_pagamento/index.erb"
+			],
+			[
+				"solipagamcon",
+				"app/controllers/compras/solicitacoes_pagamento_controller.rb"
+			],
+			[
+				"solictpagam",
+				"app/models/compras/solicitacao_pagamento.rb"
+			],
+			[
+				"produsol",
+				"app/models/compras/produto_solicitado.rb"
+			],
+			[
+				"servicocontracon",
+				"app/controllers/compras/servicos_contratados_controller.rb"
+			],
+			[
+				"sercontr",
+				"app/models/compras/servico_contratado.rb"
+			],
+			[
+				"solicpagme",
+				"app/models/compras/solicitacao_pagamento.rb"
+			],
+			[
+				"solicpagamcontrol",
+				"app/controllers/compras/solicitacoes_pagamento_controller.rb"
+			],
+			[
+				"solicipagaminde",
+				"app/views/compras/solicitacoes_pagamento/index.erb"
+			],
+			[
+				"servicocontra",
+				"app/models/compras/servico_contratado.rb"
+			],
+			[
+				"servicontcontrol",
+				"app/controllers/compras/servicos_contratados_controller.rb"
+			],
+			[
+				"servicocontrind",
+				"app/views/compras/servicos_contratados/index.erb"
+			],
+			[
+				"tempos",
+				"app/controllers/tempos_trabalhados_controller.rb"
+			],
+			[
+				"ordenbai",
+				"app/views/ordens_servico/baixar2.erb"
+			],
+			[
+				"ava",
+				"app/views/compras/solicitacoes_pagamento/avaliar.erb"
+			],
+			[
+				"solicpaginde",
+				"app/views/compras/solicitacoes_pagamento/index.erb"
+			],
+			[
+				"solicitapagam",
+				"app/controllers/compras/solicitacoes_pagamento_controller.rb"
+			],
+			[
+				"usuario",
+				"app/models/usuario_ability.rb"
+			],
+			[
+				"colab",
+				"app/controllers/colaboradores_controller.rb"
+			],
+			[
+				"colabinde",
+				"app/views/colaboradores/index.erb"
+			],
+			[
+				"colaborasinde",
+				"app/views/colaboradores/index.erb"
+			],
+			[
+				"servcontcontro",
+				"app/controllers/compras/servicos_contratados_controller.rb"
+			],
+			[
+				"sevicocontainde",
+				"app/views/compras/servicos_contratados/index.erb"
+			],
+			[
+				"servicontratedit",
+				"app/views/compras/servicos_contratados/edit.erb"
+			],
+			[
+				"ra",
+				"lib/tasks/rcs.rake"
+			],
+			[
+				"servicosontraedit",
+				"app/views/compras/servicos_contratados/edit.erb"
+			],
+			[
+				"serivcos",
+				"app/controllers/compras/servicos_contratados_controller.rb"
+			],
+			[
+				"tipos",
+				"app/controllers/tipos_equipamento_controller.rb"
+			],
+			[
+				"serv",
+				"app/models/compras/servico_contratado.rb"
+			],
+			[
+				"dadosut",
+				"lib/dados_util.rb"
+			],
+			[
+				"solicit",
+				"app/models/compras/solicitacao_pagamento.rb"
+			],
+			[
+				"cola",
+				"app/controllers/colaboradores_controller.rb"
+			],
+			[
+				"ospo",
+				"app/views/relatorios/oss_por_colaborador.erb"
+			],
+			[
+				"prevve",
+				"app/models/importpr/preventiva.rb"
+			],
+			[
+				"chama",
+				"app/models/chamado_tecnico.rb"
+			],
+			[
+				"chamaado",
+				"app/views/relatorios/chamados_tecnicos_consolidados_por_periodo.erb"
+			],
+			[
+				"colabora",
+				"app/controllers/colaboradores_controller.rb"
+			],
+			[
+				"cham",
+				"app/models/chamado_tecnico.rb"
+			],
+			[
+				"equipa",
+				"app/models/equipamento.rb"
+			],
+			[
+				"dadso",
+				"lib/dados_util.rb"
+			],
+			[
+				"filtrosin",
+				"app/views/ordens_servico/_filtros_index.erb"
+			],
+			[
+				"mater",
+				"app/models/almoxarifado/material.rb"
+			],
+			[
+				"dado",
+				"lib/dados_util.rb"
+			],
+			[
+				"tmepo",
+				"app/models/tempo_trabalhado.rb"
+			],
+			[
+				"baixar",
+				"app/views/ordens_servico/baixar2.erb"
+			],
+			[
+				"contatosfre",
+				"app/views/home/contatos_frentes.erb"
+			],
+			[
+				"homecon",
+				"app/controllers/home_controller.rb"
+			],
+			[
+				"contatos",
+				"app/controllers/contratos_controller.rb"
+			],
+			[
+				"medicoesco",
+				"app/controllers/medicoes_controller.rb"
+			],
+			[
+				"medicoescon",
+				"app/controllers/medicoes_controller.rb"
+			],
+			[
+				"dad",
+				"lib/dados_util.rb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"menunin",
+				"app/helpers/menu_interno_helper.rb"
+			],
+			[
+				"tiposequipshow",
+				"app/views/tipos_equipamento/show.erb"
+			],
+			[
+				"solicitacoesprod",
+				"app/controllers/compras/solicitacoes_produtos_controller.rb"
+			],
+			[
+				"infle",
+				"config/initializers/inflections.rb"
+			],
+			[
+				"arvore",
+				"app/models/arvore.rb"
+			],
+			[
+				"scrip",
+				"script_tipo_solicitacao.rb"
+			],
+			[
+				"minhac",
+				"app/controllers/minha_conta_controller.rb"
+			],
+			[
+				"gem",
+				"Gemfile"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 303.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
