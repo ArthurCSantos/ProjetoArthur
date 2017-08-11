@@ -8,5 +8,9 @@ class HomeController < ApplicationController
 		
 	end
 
+	def logs_mergulho
+		
+	end
+
 
 end
