@@ -1,8 +1,15 @@
 class Lancamento
 	include Mongoid::Document
 
-  	TIPOS = ['Recebimento', 'Social', 'Alimentação', 'Compras', 'Mergulho']     
-		
+	TIPOS = [RECEBIMENTO, SOCIAL, ALIMENTACAO, COMPRAS, MERGULHO]
+
+  	DESC_TIPO = {
+  			RECEBIMENTO		=> 'Recebimento',
+  			SOCIAL         	=> 'Social',
+            ALIMENTACAO     => 'Compras',
+            COMPRAS         => 'Operação',
+            MERGULHO 		=> 'Mergulho'    
+        	}
 
 	field :data, type:Time
 	field :descricao, type:String
