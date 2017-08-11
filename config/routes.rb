@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
 	get "/", to: "home#index" 
-	get "/pagina", to: "home#pagina"
+	get "/controle_gastos", to: "home#controle_gastos"
 	get "/inicio", to: "home#index"
 end

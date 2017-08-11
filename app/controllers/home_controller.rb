@@ -1,9 +1,10 @@
 class HomeController < ApplicationController
+	
 	def index
 
 	end	
 
-	def pagina
+	def controle_gastos
 		
 	end
 
