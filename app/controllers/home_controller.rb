@@ -4,10 +4,6 @@ class HomeController < ApplicationController
 
 	end	
 
-	def controle_gastos
-		
-	end
-
 	def logs_mergulho
 		
 	end
