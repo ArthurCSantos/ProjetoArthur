@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<!--
+	Spatial by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Generic - Spatial by TEMPLATED</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<h1><strong><%= link_to 'Arthur', inicio_path %></strong> Carvalho dos Santos</h1>
+				<nav id="nav">
+					<ul>
+						<li><%= link_to 'Início', inicio_path %></li>
+						<li><%= link_to 'Controle de Gastos', resumo_mensal_path %></li>
+						<li><%= link_to 'Log de Mergulhos', logs_mergulho_path %></li>
+
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Main -->
+			<section id="main" class="wrapper">
+				<div class="container">
+
+					<header class="major special">
+						<h3>Fazer Lançamentos</h3>
+						<% case Time.now.month %>
+							<% when 1 %>
+								<p>Janeiro, <%= Time.now.year %></p>
+							<% when 2 %>
+								<p>Fevereiro, <%= Time.now.year %></p>
+							<% when 3 %>
+								<p>Março, <%= Time.now.year %></p>
+							<% when 4 %>
+								<p>Abril, <%= Time.now.year %></p>
+							<% when 5 %>
+								<p>Maio, <%= Time.now.year %></p>
+							<% when 6 %>
+								<p>Junho, <%= Time.now.year %></p>
+							<% when 7 %>
+								<p>Julho, <%= Time.now.year %></p>
+							<% when 8 %>
+								<p>Agosto, <%= Time.now.year %></p>
+							<% when 9 %>
+								<p>Setembro, <%= Time.now.year %></p>
+							<% when 10 %>
+								<p>Outubro, <%= Time.now.year %></p>
+							<% when 11 %>
+								<p>Novembro, <%= Time.now.year %></p>
+							<% when 12 %>
+								<p>Dezembro, <%= Time.now.year %></p>
+						<% end %>
+					</header>
+				</div>
+			</section>
+			
+			</section id="form" class="wrapper">
+				<%= form_tag criar_lancamentos_path, method: 'post' do %>
+					<div class="container js_adicionar_lancamento">
+						<a class="button">Adicionar lançamento</a>
+					</div>
+
+					<br>
+					
+					<div class="container table-wraper">
+						<table id="tabela_novos_lancamentos">
+									<tr>
+										<th>Data</th>
+										<th>Descrição</th>
+										<th>Tipo</th>
+										<th>Pagamento</th>
+										<th>Valor</th>
+										<th></th>
+									</tr>
+									
+									<div class="container js_novos_lancamentos">
+					
+									</div>
+						</table>
+					</div>
+
+					<div class="container">
+						<%= button_tag 'Salvar' %>
+					</div>
+				<% end %>
+			<section>
+	</body>
+
+
+</html>
+
+<script type="text/javascript">
+	$(function(){
+     $('.js_adicionar_lancamento').click(function (event) {
+     	var table =  document.getElementById("tabela_novos_lancamentos");
+     	var row = table.insertRow(-1);
+     	var cell1 = row.insertCell(0);
+    	var cell2 = row.insertCell(1);
+    	var cell3 = row.insertCell(2);
+    	var cell4 = row.insertCell(3);
+    	var cell5 = row.insertCell(4);
+    	var cell6 = row.insertCell(5);
+
+    	cell1.innerHTML = "<input type='text' name='lancamentos[]data' placeholder='Data' />";
+    	cell2.innerHTML = "<input type='text' name='lancamentos[]descricao' placeholder='Descrição' />";
+    	cell3.innerHTML = "<input type='text' name='lancamentos[]tipo' placeholder='Tipo' />";
+    	cell4.innerHTML = "<input type='text' name='lancamentos[]pagamento' placeholder='Forma de Pagamento' />";
+    	cell5.innerHTML = "<input type='text' name='lancamentos[]valor' placeholder='Valor' />";
+    	cell6.innerHTML = "<i class='fa fa-times'></i>";
+
+		// var html  = "<tr>";
+		// 		html += "<td><input type='text' name='lancamentos[]data' placeholder='Data' /></td>";
+		// 		html += "<td><input type='text' name='lancamentos[]descricao' placeholder='Descrição' /></td>";
+		// 		html += "<td><input type='text' name='lancamentos[]tipo' placeholder='Tipo' /></td>";
+		// 		html += "<td><input type='text' name='lancamentos[]pagamento' placeholder='Forma de Pagamento' /></td>";
+		// 		html += "<td><input type='text' name='lancamentos[]valor' placeholder='Valor' /></td>";
+		// 	html += "</tr>";
+	   
+	 //       html = $(html);
+
+	 //       $(".js_novos_lancamentos").append(html);
+
+     });
+
+  });
+</script>

@@ -6,10 +6,10 @@
 -->
 <html>
 	<head>
-		<title>Arthur Carvalho dos Santos</title>
+		<title>Generic - Spatial by TEMPLATED</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="assets/stylesheets/main.css" />
+		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body>
 
@@ -19,7 +19,7 @@
 				<nav id="nav">
 					<ul>
 						<li><%= link_to 'Início', inicio_path %></li>
-						<li><%= link_to 'Controle de Gastos', controle_gastos_path %></li>
+						<li><%= link_to 'Controle de Gastos', resumo_mensal_path %></li>
 						<li><%= link_to 'Log de Mergulhos', logs_mergulho_path %></li>
 
 					</ul>
@@ -31,16 +31,38 @@
 				<div class="container">
 
 					<header class="major special">
-						<h2>Controle de Gastos</h2>
-
-						<div class="js_fazer_lancamento">
-							<a class="button">Fazer Lançamento</a>
-						</div>
-
-						<div class="js_novos_lancamentos">
-							
-						</div>
+						<h2>Resumo Mensal</h2>
+						<% case Time.now.month %>
+							<% when 1 %>
+								<p>Janeiro, <%= Time.now.year %></p>
+							<% when 2 %>
+								<p>Fevereiro, <%= Time.now.year %></p>
+							<% when 3 %>
+								<p>Março, <%= Time.now.year %></p>
+							<% when 4 %>
+								<p>Abril, <%= Time.now.year %></p>
+							<% when 5 %>
+								<p>Maio, <%= Time.now.year %></p>
+							<% when 6 %>
+								<p>Junho, <%= Time.now.year %></p>
+							<% when 7 %>
+								<p>Julho, <%= Time.now.year %></p>
+							<% when 8 %>
+								<p>Agosto, <%= Time.now.year %></p>
+							<% when 9 %>
+								<p>Setembro, <%= Time.now.year %></p>
+							<% when 10 %>
+								<p>Outubro, <%= Time.now.year %></p>
+							<% when 11 %>
+								<p>Novembro, <%= Time.now.year %></p>
+							<% when 12 %>
+								<p>Dezembro, <%= Time.now.year %></p>
+						<% end %>
 					</header>
+
+					<div class="container">
+						<%= button_to 'Fazer Lançamentos', novos_lancamentos_path, :class=>"button special",       :method=>"get"%>
+					</div>
 
 					<div class="table-wrapper">
 					<table class="alt" style="text-align: center;">
@@ -108,30 +130,3 @@
 			</section>
 	</body>
 </html>
-
-<script type="text/javascript" charset="utf8">
-
-$(function(){
-     $('.js_fazer_lancamento').click(function (event) {
-     	console.log('Clicou')
-        var html =  "<div class='div_contato novo_contato'>";
-            html += "  <div class='row'>";
-            html += "     <div class='col-lg-5'>";
-            html += "       <input type='text' name='contatos[]descricao' placeholder='Descrição' class='form-control' />";
-            html += "     </div>";
-            html += "     <div class='col-lg-5'>";
-            html += "       <input type='text' name='contatos[]numero' placeholder='Digite o número' class='form-control js_campo_numero' />";
-            html += "     </div>";
-            html += "     <div class='col-lg-2'>";
-            html += "       <i class='fa fa-times js_remover_contato' style='color:rgb(183, 7, 7);cursor:pointer'></i>";
-            html += "     </div>";
-            html += "  </div>";
-            html += "<div>";
-        
-        html = $(html);
-        $(".js_novos_lancamentos").append(html);
-
-    });
-});     
-	
-</script>

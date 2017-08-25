@@ -5,7 +5,12 @@ class Lancamento
 	SOCIAL         	= 'Social'
     ALIMENTACAO     = 'Compras'
     COMPRAS         = 'Operação'
-    MERGULHO 		= 'Mergulho'   
+    MERGULHO 		= 'Mergulho'
+
+    CREDITO_MASTER = 'NuBank (Crédito)'
+    CREDITO_AMEX   = 'AmEx (Crédito)'
+    DEBITO         = 'Itau (Débito)'  
+    DINEHIRO       = 'Dinheiro' 
 
 	TIPOS = [RECEBIMENTO, SOCIAL, ALIMENTACAO, COMPRAS, MERGULHO]
 
