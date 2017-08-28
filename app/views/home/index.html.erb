@@ -31,20 +31,17 @@
 
 		<!-- Banner -->
 			<section id="banner">
-				<% if Time.now.hour < 12  and Time.now.hour > 0 %>
+				<% if Time.now.hour-3 < 12  and Time.now.hour-3 > 0 %>
 					<h2>Bom Dia</h2>
-				<% elsif Time.now.hour > 12  and Time.now.hour < 18 %>
+				<% elsif Time.now.hour-3 > 12  and Time.now.hour-3 < 18 %>
 					<h2>Boa Tarde</h2>
 				<% else %>
 					<h2>Boa Noite</h2>
 				<% end %>
 					
 
-				<p> <%= Time.now.day %>/<%= Time.now.month %>/<%= Time.now.year %> <br> <%= Time.now.hour %> horas e <%= Time.now.min %> minutos </p>
+				<p> <%= Time.now.day %>/<%= Time.now.month %>/<%= Time.now.year %> <br> <%= Time.now.hour-3 %> horas e <%= Time.now.min %> minutos </p>
 
-				<ul class="actions">
-					<li><a href="#" class="button special big">Get Started</a></li>
-				</ul>
 
 
 			</section>
