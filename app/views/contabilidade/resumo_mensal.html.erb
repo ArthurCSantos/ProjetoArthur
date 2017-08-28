@@ -9,7 +9,6 @@
 		<title>Generic - Spatial by TEMPLATED</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body>
 
@@ -76,10 +75,10 @@
 						</thead>
 						<tbody>
 							<tr>
-								<td>R$880.00</td>
-								<td>R$20.00</td>
-								<td>R$20.00</td>
-								<td>R$860.00</td>
+								<td>R$ <%= @recebimento_total %></td>
+								<td>R$ <%= @gasto_total/Time.now.day %></td>
+								<td>R$ <%= @gasto_total %></td>
+								<td>R$ <%= @recebimento_total - @gasto_total %></td>
 							</tr>
 					</table>
 
@@ -101,7 +100,7 @@
 										<td><%= lancamento.descricao %></td>
 										<td><%= lancamento.tipo %></td>
 										<td><%= lancamento.pagamento %></td>
-										<td><%= lancamento.valor %></td>
+										<td>R$ <%= "%.2f" % lancamento.valor %></td>
 									</tr>
 								<% end %>
 							</tbody>

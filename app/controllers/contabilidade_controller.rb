@@ -1,6 +1,17 @@
 class ContabilidadeController < ApplicationController
 	def resumo_mensal
-		@lancamentos = Lancamento.all
+		@lancamentos = Lancamento.all.desc(:data)
+
+
+		@gasto_total = 0
+		@lancamentos.gastos.each do |gasto|
+			@gasto_total += gasto.valor
+		end
+
+		@recebimento_total = 0
+		@lancamentos.recebimentos.each do |recebimento|
+			@recebimento_total += recebimento.valor
+		end
 	end
 
 	def novos_lancamentos
@@ -14,7 +25,7 @@ class ContabilidadeController < ApplicationController
 			nl.descricao = lancamento['descricao']
 			nl.tipo = lancamento['tipo']
 			nl.pagamento = lancamento['pagamento']
-			nl.valor = lancamento['valor']
+			nl.valor = lancamento['valor'].to_d
 
 			nl.save!
 		end
