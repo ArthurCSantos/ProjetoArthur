@@ -1,6 +1,6 @@
 class ContabilidadeController < ApplicationController
 	def resumo_mensal
-		
+		@lancamentos = Lancamento.all
 	end
 
 	def novos_lancamentos

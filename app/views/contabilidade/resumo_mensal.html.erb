@@ -95,34 +95,15 @@
 								</tr>
 							</thead>
 							<tbody>
-								<tr>
-									<td><%= DateTime.now.to_date %></td>
-									<td>Almoço</td>
-									<td>Alimentação</td>
-									<td><i class="fa fa-cc-mastercard fa-lg" aria-hidden="true"></i> Nubank (Crédito)</td>
-									<td>R$29.99</td>
-								</tr>
-								<tr>
-									<td><%= DateTime.now.to_date %></td>
-									<td>Lanche</td>
-									<td>Alimentação</td>
-									<td><i class="fa fa-cc-mastercard fa-lg" aria-hidden="true"></i> Itau (Débito)</td>
-									<td>R$29.99</td>
-								</tr>
-								<tr>
-									<td><%= DateTime.now.to_date %></td>
-									<td>Janta</td>
-									<td>Alimentação</td>
-									<td><i class="fa fa-cc-amex fa-lg" aria-hidden="true"></i> AmEx (Crédito)</td>
-									<td>R$29.99</td>
-								</tr>
-								<tr>
-									<td><%= DateTime.now.to_date %></td>
-									<td>Janta</td>
-									<td>Alimentação</td>
-									<td><i class="fa fa-money fa-lg" aria-hidden="true"></i> Dinheiro</td>
-									<td>R$29.99</td>
-								</tr>
+								<% @lancamentos.each do |lancamento| %>
+									<tr>
+										<td><%= lancamento.data.strftime("%d/%m/%Y") %></td>
+										<td><%= lancamento.descricao %></td>
+										<td><%= lancamento.tipo %></td>
+										<td><%= lancamento.pagamento %></td>
+										<td><%= lancamento.valor %></td>
+									</tr>
+								<% end %>
 							</tbody>
 						</table>
 
