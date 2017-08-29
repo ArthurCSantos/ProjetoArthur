@@ -7,6 +7,8 @@ Rails.application.routes.draw do
     	get  :resumo_mensal
     	get  :novos_lancamentos
     	post :criar_lancamentos
+    	get  :editar_lancamento
+    	put  :salvar_alteracoes_lancamento
   	end
 
 

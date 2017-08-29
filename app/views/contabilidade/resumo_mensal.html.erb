@@ -31,36 +31,26 @@
 
 					<header class="major special">
 						<h2>Resumo Mensal</h2>
-						<% case Time.now.month %>
-							<% when 1 %>
-								<p>Janeiro, <%= Time.now.year %></p>
-							<% when 2 %>
-								<p>Fevereiro, <%= Time.now.year %></p>
-							<% when 3 %>
-								<p>Março, <%= Time.now.year %></p>
-							<% when 4 %>
-								<p>Abril, <%= Time.now.year %></p>
-							<% when 5 %>
-								<p>Maio, <%= Time.now.year %></p>
-							<% when 6 %>
-								<p>Junho, <%= Time.now.year %></p>
-							<% when 7 %>
-								<p>Julho, <%= Time.now.year %></p>
-							<% when 8 %>
-								<p>Agosto, <%= Time.now.year %></p>
-							<% when 9 %>
-								<p>Setembro, <%= Time.now.year %></p>
-							<% when 10 %>
-								<p>Outubro, <%= Time.now.year %></p>
-							<% when 11 %>
-								<p>Novembro, <%= Time.now.year %></p>
-							<% when 12 %>
-								<p>Dezembro, <%= Time.now.year %></p>
+						<br>
+						<h4>Período</h4>
+						<%= form_tag resumo_mensal_path, method: 'get' do %>
+							<div class="row uniform 100%">
+								<div>
+									<%= select_tag 'mes', options_for_select(Lancamento::MESES, params['mes']) %>
+								</div>
+								<div>
+									<%= select_tag 'ano', options_for_select(Lancamento::ANOS, params['ano']) %>
+								</div>
+								<div>
+									<%=	%>
+								</div>
+							</div>
 						<% end %>
+							
 					</header>
 
 					<div class="container">
-						<%= button_to 'Fazer Lançamentos', novos_lancamentos_path, :class=>"button special",       :method=>"get"%>
+						<%= button_to 'Fazer Lançamentos', novos_lancamentos_path, :class=>"button",       :method=>"get"%>
 					</div>
 
 					<div class="table-wrapper">
@@ -86,23 +76,30 @@
 						<table>
 							<thead>
 								<tr>
-									<th>Dia</th>
-									<th>Descrição</th>
-									<th>Tipo</th>
-									<th>Pagamento</th>
-									<th>Valor</th>
+									<th style="width: 15%">Data</th>
+									<th style="width: 30%">Descrição</th>
+									<th style="width: 15%">Tipo</th>
+									<th style="width: 15%">Pagamento</th>
+									<th style="width: 15%">Valor</th>
+									<th style="width: 10%"></th>
 								</tr>
 							</thead>
 							<tbody>
-								<% @lancamentos.each do |lancamento| %>
-									<tr>
-										<td><%= lancamento.data.strftime("%d/%m/%Y") %></td>
-										<td><%= lancamento.descricao %></td>
-										<td><%= lancamento.tipo %></td>
-										<td><%= lancamento.pagamento %></td>
-										<td>R$ <%= "%.2f" % lancamento.valor %></td>
-									</tr>
-								<% end %>
+									<% @lancamentos.each do |lancamento| %>
+										<tr>
+											<td><%= lancamento.data.strftime("%d/%m/%Y") %></td>
+											<td><%= lancamento.descricao %></td>
+											<td><%= lancamento.tipo %></td>
+											<td><%= lancamento.pagamento %></td>
+											<td>R$ <%= "%.2f" % lancamento.valor %></td>
+											<%= form_tag editar_lancamento_path, method: 'get' do%>
+												<%= hidden_field_tag 'lancamento_id', lancamento.id %>
+												<td>
+													<%= submit_tag 'Editar', class:'button small'  %>
+												</td>
+											<% end %>	
+										</tr>
+									<% end %>
 							</tbody>
 						</table>
 

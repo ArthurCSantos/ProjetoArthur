@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"recebimeno",
+				"recebimento_total"
+			],
+			[
+				"lanca",
+				"lancamento"
+			],
+			[
+				"lan",
+				"lancamento"
+			],
+			[
+				"lancamen",
+				"lancamentos"
+			],
+			[
 				"col",
 				"col-lg-5"
 			],
@@ -207,30 +223,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "app/assets/stylesheets/application.css",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/assets/stylesheets/main.css",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Gemfile",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -264,19 +256,29 @@
 	},
 	"expanded_folders":
 	[
-		"/home/arthur/Projetos/ProjetoArthur"
+		"/home/arthur/Projetos/ProjetoArthur",
+		"/home/arthur/Projetos/ProjetoArthur/app",
+		"/home/arthur/Projetos/ProjetoArthur/app/controllers",
+		"/home/arthur/Projetos/ProjetoArthur/app/views",
+		"/home/arthur/Projetos/ProjetoArthur/app/views/contabilidade",
+		"/home/arthur/Projetos/ProjetoArthur/app/views/home"
 	],
 	"file_history":
 	[
-		"/home/arthur/Projetos/ProjetoArthur/config/routes.rb",
 		"/home/arthur/Projetos/ProjetoArthur/app/controllers/contabilidade_controller.rb",
-		"/home/arthur/Projetos/ProjetoArthur/app/views/home/logs_mergulho.html.erb",
-		"/home/arthur/Projetos/ProjetoArthur/app/views/contabilidade/novos_lancamentos.html.erb",
 		"/home/arthur/Projetos/ProjetoArthur/app/views/contabilidade/resumo_mensal.html.erb",
 		"/home/arthur/Projetos/ProjetoArthur/app/views/home/index.html.erb",
+		"/home/arthur/Projetos/ProjetoArthur/app/models/lancamento.rb",
+		"/home/arthur/Projetos/ProjetoArthur/app/views/contabilidade/novos_lancamentos.html.erb",
+		"/home/arthur/Projetos/ProjetoArthur/app/views/layouts/index.html",
+		"/home/arthur/Projetos/ProjetoArthur/app/assets/stylesheets/application.css",
+		"/home/arthur/Projetos/ProjetoArthur/app/assets/stylesheets/main.css",
+		"/home/arthur/Projetos/ProjetoArthur/Gemfile",
+		"/home/arthur/Projetos/ProjetoArthur/config/mongoid.yml",
+		"/home/arthur/Projetos/ProjetoArthur/config/routes.rb",
+		"/home/arthur/Projetos/ProjetoArthur/app/views/home/logs_mergulho.html.erb",
 		"/home/arthur/Projetos/ProjetoArthur/app/views/gastos/resumo_gastos.html.erb",
 		"/home/arthur/Projetos/ProjetoArthur/app/views/gastos/novo_lancamento.html.erb",
-		"/home/arthur/Projetos/ProjetoArthur/app/models/lancamento.rb",
 		"/home/arthur/Projetos/ProjetoArthur/app/controllers/gastos_controller.rb",
 		"/home/arthur/Projetos/ProjetoArthur/app/views/gastos/controle_gastos.html.erb",
 		"/home/arthur/Projetos/ProjetoArthur/tmp/cache/assets/sprockets/v3.0/1K/1KI5UtiSIPO-u1q7-X9_A87YpupsP0ULg_ZrPYCai2c.cache",
@@ -390,12 +392,7 @@
 		"/home/arthur/Projetos/ProjetoArthur/tmp/cache/assets/sprockets/v3.0/x7/x7PYh8DJvPykcEqpVab2vcY9-GFz-3cqtoMlRAu94Uc.cache",
 		"/home/arthur/Projetos/ProjetoArthur/tmp/cache/assets/sprockets/v3.0/xC/xC5b9ZC2gA1V1HWDjw-DRFJwERge13-9Tdl466utjag.cache",
 		"/home/arthur/Projetos/ProjetoArthur/tmp/cache/assets/sprockets/v3.0/xT/xTybBUG1OBmbg7HTpRmdYoYPglEMI6lPX3HzCCONsuk.cache",
-		"/home/arthur/Projetos/ProjetoArthur/tmp/cache/assets/sprockets/v3.0/yf/yfut4qMKKVHoem-SBFGNKJ_2mQI3RK4xYsTxmOW02Zc.cache",
-		"/home/arthur/Projetos/ProjetoArthur/tmp/cache/assets/sprockets/v3.0/0O/0O4XKfJOY79C8ctemNPrg3wt3Gs2VSWGZMSjqN9wIA0.cache",
-		"/home/arthur/Projetos/ProjetoArthur/tmp/cache/assets/sprockets/v3.0/0B/0BJan3XZzkL5_xGvAHzsadEovK3KzGoj_hyxryVJfJU.cache",
-		"/home/arthur/Projetos/ProjetoArthur/tmp/cache/assets/sprockets/v3.0/-d/-dauxhbZgX7kpyqHi5hkcwn8LV1FPHDkuh-0z3AL6zo.cache",
-		"/home/arthur/Projetos/ProjetoArthur/log/development.log",
-		"/home/arthur/Projetos/ProjetoArthur/config/initializers/wrap_parameters.rb"
+		"/home/arthur/Projetos/ProjetoArthur/tmp/cache/assets/sprockets/v3.0/yf/yfut4qMKKVHoem-SBFGNKJ_2mQI3RK4xYsTxmOW02Zc.cache"
 	],
 	"find":
 	{
@@ -414,6 +411,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Time.now",
 			"skel",
 			"javascripts",
 			"js",
@@ -484,94 +482,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "app/assets/stylesheets/application.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/assets/stylesheets/main.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "Gemfile",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -623,6 +535,22 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"index",
+				"app/views/layouts/index.html"
+			],
+			[
+				"resumo",
+				"app/views/contabilidade/resumo_mensal.html.erb"
+			],
+			[
+				"lanca",
+				"app/models/lancamento.rb"
+			],
+			[
+				"config.ym",
+				"config/mongoid.yml"
+			],
 			[
 				"gemfile",
 				"Gemfile"
@@ -1118,22 +1046,6 @@
 			[
 				"medicoesco",
 				"app/controllers/medicoes_controller.rb"
-			],
-			[
-				"medicoescon",
-				"app/controllers/medicoes_controller.rb"
-			],
-			[
-				"dad",
-				"lib/dados_util.rb"
-			],
-			[
-				"menunin",
-				"app/helpers/menu_interno_helper.rb"
-			],
-			[
-				"tiposequipshow",
-				"app/views/tipos_equipamento/show.erb"
 			]
 		],
 		"width": 0.0

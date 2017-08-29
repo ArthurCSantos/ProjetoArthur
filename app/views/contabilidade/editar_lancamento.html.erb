@@ -33,65 +33,15 @@
 				<div class="container">
 
 					<header class="major special">
-						<h2>Fazer Lançamentos</h2>
-						<% case Time.now.month %>
-							<% when 1 %>
-								<p><%= Time.now.day%> de Janeiro, <%= Time.now.year %></p>
-							<% when 2 %>
-								<p><%= Time.now.day%> de Fevereiro, <%= Time.now.year %></p>
-							<% when 3 %>
-								<p><%= Time.now.day%> de Março, <%= Time.now.year %></p>
-							<% when 4 %>
-								<p><%= Time.now.day%> de Abril, <%= Time.now.year %></p>
-							<% when 5 %>
-								<p><%= Time.now.day%> de Maio, <%= Time.now.year %></p>
-							<% when 6 %>
-								<p><%= Time.now.day%> de Junho, <%= Time.now.year %></p>
-							<% when 7 %>
-								<p><%= Time.now.day%> de Julho, <%= Time.now.year %></p>
-							<% when 8 %>
-								<p><%= Time.now.day%> de Agosto, <%= Time.now.year %></p>
-							<% when 9 %>
-								<p><%= Time.now.day%> de Setembro, <%= Time.now.year %></p>
-							<% when 10 %>
-								<p><%= Time.now.day%> de Outubro, <%= Time.now.year %></p>
-							<% when 11 %>
-								<p><%= Time.now.day%> de Novembro, <%= Time.now.year %></p>
-							<% when 12 %>
-								<p><%= Time.now.day%> de Dezembro, <%= Time.now.year %></p>
-						<% end %>
+						<h2>Editar Lançamento</h2>
+
 					</header>
 				</div>
 			</section>
 			
 			</section id="form" class="wrapper">
-				<%= form_tag criar_lancamentos_path, method: 'post' do %>
-					<div class="container js_adicionar_lancamento">
-						<a class="button">Adicionar lançamento</a>
-					</div>
-
-					<br>
-
-					<div class="container table-wraper">
-						<table id="tabela_novos_lancamentos">
-									<tr>
-										<th>Data</th>
-										<th>Descrição</th>
-										<th>Tipo</th>
-										<th>Pagamento</th>
-										<th>Valor</th>
-										<th></th>
-									</tr>
-									
-									<div class="container js_novos_lancamentos">
-					
-									</div>
-						</table>
-					</div>
-
-					<div class="container">
-						<%= button_tag 'Salvar' %>
-					</div>
+				<%= form_tag salvar_alteracoes_lancamento_path, method: 'put' do %>
+					<%= @lancamento.descricao %>
 				<% end %>
 			<section>
 	</body>
