@@ -89,7 +89,7 @@
 						</table>
 					</div>
 
-					<div class="container">
+					<div class="container" style="text-align: right">
 						<%= button_tag 'Salvar' %>
 					</div>
 				<% end %>
@@ -116,7 +116,7 @@
 	    	cell1.innerHTML = "<%=j text_field_tag 'lancamentos[]data', Time.now.strftime("%d/%m/%Y"), class: 'js_data' %>";
 	    	cell2.innerHTML = "<%=j text_field_tag 'lancamentos[]descricao', nil , placeholder:'Descrição' %>";
 	    	cell3.innerHTML = "<%=j select_tag 'lancamentos[]tipo', options_for_select(Lancamento::TIPOS, "Alimentação") %>";
-	    	cell4.innerHTML = "<%=j select_tag 'lancamentos[]pagamento', options_for_select(Lancamento::FORMAS_PAGAMENTO, "Itaú (Débito)") %>";
+	    	cell4.innerHTML = "<%=j select_tag 'lancamentos[]pagamento', options_for_select(Lancamento::FORMAS_PAGAMENTO, "Itaú (Débito)"), include_blank: true %>";
 	    	cell5.innerHTML = "<%=j text_field_tag 'lancamentos[]valor', nil , placeholder:'Valor', class: 'js_currency' %>";
 	    	cell6.innerHTML = "<i class='fa fa-times'></i>";
 			

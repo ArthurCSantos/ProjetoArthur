@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"des",
+				"descricao"
+			],
+			[
 				"lanca",
 				"Lancamento"
 			],
@@ -70,10 +74,6 @@
 			[
 				"st",
 				"style"
-			],
-			[
-				"des",
-				"Descrição"
 			],
 			[
 				"js",
@@ -282,17 +282,15 @@
 	[
 		"/home/arthur/Projetos/ProjetoArthur",
 		"/home/arthur/Projetos/ProjetoArthur/app",
-		"/home/arthur/Projetos/ProjetoArthur/app/controllers",
-		"/home/arthur/Projetos/ProjetoArthur/app/models",
 		"/home/arthur/Projetos/ProjetoArthur/app/views",
-		"/home/arthur/Projetos/ProjetoArthur/app/views/contabilidade",
-		"/home/arthur/Projetos/ProjetoArthur/app/views/home"
+		"/home/arthur/Projetos/ProjetoArthur/app/views/contabilidade"
 	],
 	"file_history":
 	[
+		"/home/arthur/Projetos/ProjetoArthur/app/views/contabilidade/editar_lancamento.html.erb",
+		"/home/arthur/Projetos/ProjetoArthur/Gemfile",
 		"/home/arthur/Projetos/ProjetoArthur/app/models/lancamento.rb",
 		"/home/arthur/Projetos/ProjetoArthur/config/routes.rb",
-		"/home/arthur/Projetos/ProjetoArthur/app/views/contabilidade/editar_lancamento.html.erb",
 		"/home/arthur/Projetos/ProjetoArthur/app/views/home/logs_mergulho.html.erb",
 		"/home/arthur/Projetos/ProjetoArthur/app/controllers/contabilidade_controller.rb",
 		"/home/arthur/Projetos/ProjetoArthur/app/views/contabilidade/novos_lancamentos.html.erb",
@@ -301,7 +299,6 @@
 		"/home/arthur/Projetos/ProjetoArthur/app/views/layouts/index.html",
 		"/home/arthur/Projetos/ProjetoArthur/app/assets/stylesheets/application.css",
 		"/home/arthur/Projetos/ProjetoArthur/app/assets/stylesheets/main.css",
-		"/home/arthur/Projetos/ProjetoArthur/Gemfile",
 		"/home/arthur/Projetos/ProjetoArthur/config/mongoid.yml",
 		"/home/arthur/Projetos/ProjetoArthur/app/views/gastos/resumo_gastos.html.erb",
 		"/home/arthur/Projetos/ProjetoArthur/app/views/gastos/novo_lancamento.html.erb",
@@ -544,6 +541,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
@@ -561,6 +562,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"Gemfile"
+			],
 			[
 				"lo",
 				"app/views/home/logs_mergulho.html.erb"
@@ -1068,10 +1073,6 @@
 			[
 				"contatosfre",
 				"app/views/home/contatos_frentes.erb"
-			],
-			[
-				"homecon",
-				"app/controllers/home_controller.rb"
 			]
 		],
 		"width": 0.0

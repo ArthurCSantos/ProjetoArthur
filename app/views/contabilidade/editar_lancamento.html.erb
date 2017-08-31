@@ -34,15 +34,40 @@
 
 					<header class="major special">
 						<h2>Editar Lançamento</h2>
-
+						<br>
+						<h3><%= @lancamento.descricao %>, <%= @lancamento.data.day %>/<%= @lancamento.data.month %>/<%= @lancamento.data.year %></h3>
 					</header>
 				</div>
 			</section>
 			
 			</section id="form" class="wrapper">
-				<%= form_tag salvar_alteracoes_lancamento_path, method: 'put' do %>
-					<%= @lancamento.descricao %>
-				<% end %>
+				<div class="container">
+					<%= form_tag salvar_alteracoes_lancamento_path, method: 'put' do %>
+						<div class="container table-wraper">
+							<table id="tabela_novos_lancamentos">
+										<tr>
+											<th>Data</th>
+											<th>Descrição</th>
+											<th>Tipo</th>
+											<th>Pagamento</th>
+											<th>Valor</th>
+										</tr>
+
+										<tr>
+											<td><%= text_field_tag 'data', @lancamento.data.strftime("%d/%m/%Y"), class: 'js_data' %></td>
+											<td><%= text_field_tag 'descricao', @lancamento.descricao %></td>
+											<td><%= select_tag 'tipo', options_for_select(Lancamento::TIPOS, @lancamento.tipo) %></td>
+											<td><%= select_tag 'pagamento', options_for_select(Lancamento::FORMAS_PAGAMENTO, @lancamento.tipo), include_blank: true %></td>
+											<td><%= text_field_tag 'valor', @lancamento.valor , class: 'js_currency' %></td>
+										</tr>
+							</table>			
+						</div>
+						<div style="text-align: right">
+							<%= hidden_field_tag 'lancamento_id', @lancamento.id%>
+							<%= button_tag 'Salvar', :value=>"salvar" %> <%= button_tag 'Excluir', :class=>"special", :value=>"excluir" %>
+						</div>
+					<% end %>
+				</div>
 			<section>
 	</body>
 
@@ -75,6 +100,8 @@
 
 		});
 
+	    $(".js_data").mask('00/00/0000');
+		$(".js_currency").maskMoney({prefix:'R$ ', allowNegative: true, thousands:'', decimal:'.', affixesStay: false});
     });
 </script>
 

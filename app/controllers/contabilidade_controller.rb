@@ -46,7 +46,24 @@ class ContabilidadeController < ApplicationController
 	end
 
 	def salvar_alteracoes_lancamento
-		
+		@lancamento = Lancamento.find(params['lancamento_id'])
+		if params['button'] == 'excluir'
+			@lancamento.delete
+		end
+
+		if params['button'] == 'salvar'
+			@lancamento.data = params['data']
+				@lancamento.mes = params['data'].to_time.month
+				@lancamento.ano = params['data'].to_time.year
+			@lancamento.descricao = params['descricao']
+			@lancamento.tipo = params['tipo']
+			@lancamento.pagamento = params['pagamento']
+			@lancamento.valor = params['valor'].to_d
+
+			@lancamento.save!
+		end
+
+		redirect_to resumo_mensal_path
 	end
 
 end
